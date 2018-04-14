@@ -71,7 +71,7 @@ public class TestConnect
         jedis.zadd("zset", 90,"v4");
         jedis.zadd("zset", 100,"v5");
        
-        System.out.println(88888888);
+        System.out.println(6666666);
         
         jedis.zrange("zset",0, -1).forEach(c->{
             System.out.println(c);
